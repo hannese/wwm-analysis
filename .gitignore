@@ -1,0 +1,15 @@
+# Screen captures - far too large for git
+*.mkv
+*.mp4
+
+# Derived from the captures; regenerate locally
+vagrant-sword/data/
+
+# Not published yet - delete these lines to include them
+vagrant-sword/src/
+vagrant-sword/results/
+
+# Python
+.venv*/
+__pycache__/
+*.pyc
